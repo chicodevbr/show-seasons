@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #faf6ed;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  font-family: 'Playfair Display SC', georgia;
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.show-time {
+  margin-bottom: 20px;
+  font-family: 'IBM Flex Mono', monospace;
+}
+
+.show-seasons {
+  margin-bottom: 1rem;
+}
+
+.show-year {
+  font-family: 'IBM Flex Mono', monospace;
+}
